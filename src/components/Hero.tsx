@@ -36,18 +36,18 @@ const Hero = () => {
             <span className="text-white text-sm font-medium">Transform Your Teen's Future</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black mb-6">
+          <h1 className="text-5xl md:text-7xl lg:text-6xl font-black mb-6">
             <span className="bg-gradient-to-r from-white via-purple-200 to-green-400 bg-clip-text text-transparent">
-              Teen Public
+              TEENS PUBLIC SPEAKING AND
             </span>
             <br />
             <span className="bg-gradient-to-r from-green-400 via-purple-200 to-white bg-clip-text text-transparent">
-              Speaking
+            CAREER MENTORSHIP BOOTCAMP
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Career Mentorship Bootcamp • 2 Weeks to Confidence
+             • 2 Weeks to Confidence
           </p>
 
           
