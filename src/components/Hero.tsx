@@ -66,7 +66,7 @@ const Hero = () => {
                       <img
                         src="https://ik.imagekit.io/candy28/gg.jpeg?updatedAt=1757866544670"
                         alt="Gamaliel Gerishom"
-                        className="w-full h-40 object-contain"
+                        className="w-full h-40 object-cover"
                       />
                     </div>
                     <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-r from-green-500 to-purple-500 rounded-full flex items-center justify-center">
