@@ -18,6 +18,13 @@ const CTA = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto px-4">
         <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-12 shadow-2xl">
+          {/* Date Badge */}
+          <div className="inline-block bg-gradient-to-r from-green-500/20 to-purple-600/20 border border-green-400/30 rounded-full px-6 py-2 mb-6">
+          <span className="text-green-300 font-semibold text-lg">
+        📅 November 10th - 21st • 5 Days a Week<br /> Graduation dinner and public speaking competition on 21st November at a 5 star Hotel
+      </span>
+          </div>
+          
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-white via-purple-200 to-green-400 bg-clip-text text-transparent">
               Invest in Your Teen's Future Today

@@ -141,24 +141,32 @@ const Hero = () => {
 
             {/* CTA Section */}
             <div className="bg-gradient-to-r from-purple-600/20 to-green-600/20 backdrop-blur-xl border border-white/20 rounded-3xl p-8">
-              <div className="text-center space-y-4">
-                <div className="flex items-center justify-center gap-2 mb-4">
-                  <Users className="w-5 h-5 text-green-400" />
-                  <span className="text-green-400 font-semibold">Limited Spots Available</span>
-                </div>
-                
-                <button
-                  onClick={openModal}
-                  className="w-full bg-gradient-to-r from-green-500 to-purple-600 hover:from-green-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-2xl text-lg shadow-2xl shadow-purple-500/25 hover:shadow-purple-500/40 transform hover:-translate-y-1 transition-all duration-300 border border-white/20"
-                >
-                  Enroll Your Teen Today
-                </button>
-                
-                <p className="text-gray-400 text-sm">
-                  🎯 2-week program • 🚀 Expert mentorship • ⭐ Proven results
-                </p>
-              </div>
-            </div>
+  <div className="text-center space-y-4">
+  <div className="bg-white/10 border border-green-400/30 rounded-2xl px-4 py-2 mb-4">
+      <span className="text-green-300 font-semibold text-lg">
+        📅 November 10th - 21st • 5 Days a Week<br /> graduation dinner and public speaking competition on 21st November at a 5 star Hotel
+      </span>
+    </div>
+    <div className="flex items-center justify-center gap-2 mb-4">
+      <Users className="w-5 h-5 text-green-400" />
+      <span className="text-green-400 font-semibold">Limited Spots Available</span>
+    </div>
+    
+    {/* Date Information */}
+    
+    
+    <button
+      onClick={openModal}
+      className="w-full bg-gradient-to-r from-green-500 to-purple-600 hover:from-green-600 hover:to-purple-700 text-white font-bold py-4 px-8 rounded-2xl text-lg shadow-2xl shadow-purple-500/25 hover:shadow-purple-500/40 transform hover:-translate-y-1 transition-all duration-300 border border-white/20"
+    >
+      Enroll Your Teen Today
+    </button>
+    
+    <p className="text-gray-400 text-sm">
+      🎯 2-week program • 🚀 Expert mentorship • ⭐ Proven results
+    </p>
+  </div>
+</div>
           </div>
         </div>
 
