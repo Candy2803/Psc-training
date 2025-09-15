@@ -47,7 +47,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-             • 2 Weeks to Confidence
+          The Power of Voice, The Path to Purpose – A 2-Week Journey to Launch Your Teen into Leadership and Greatness.
           </p>
 
           
@@ -110,9 +110,9 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="text-white space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold leading-tight">
-                Equip Your Teen with
+                Equip Your Teen with Excellent communication and 
                 <span className="block bg-gradient-to-r from-green-400 to-purple-400 bg-clip-text text-transparent">
-                  Leadership Skills
+                launch him/her into an inspirational leadership journey
                 </span>
               </h2>
               
