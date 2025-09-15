@@ -31,6 +31,11 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-12">
         {/* Header Section */}
         <div className="text-center mb-16">
+        <img
+                        src="https://ik.imagekit.io/candy28/Screenshot_2025-09-14_at_20.48.20-removebg-preview.png?updatedAt=1757917497944"
+                        alt="Gamaliel's Company Logo"
+                        className="h-20 w-20 object-contain opacity-80"
+                      />
           <div className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600/20 to-green-600/20 backdrop-blur-sm border border-white/10 rounded-full px-6 py-2 mb-6">
             <Star className="w-5 h-5 text-yellow-400" />
             <span className="text-white text-sm font-medium">Transform Your Teen's Future</span>
@@ -80,16 +85,13 @@ const Hero = () => {
                     
                     {/* Company Logos */}
                     <div className="flex gap-4 mb-4">
+                    
                       <img
                         src="https://ik.imagekit.io/candy28/Screenshot%202025-07-16%20at%2014.55.02.png?updatedAt=1757872508173"
                         alt="Gamaliel's Company Logo"
-                        className="h-10 object-contain opacity-80"
+                        className="h-20 w-20 object-contain opacity-80"
                       />
-                      <img
-                        src="https://ik.imagekit.io/candy28/Screenshot%202025-09-14%20at%2020.48.20.png?updatedAt=1757872360516"
-                        alt="Gamaliel's Company Logo"
-                        className="h-10 object-contain opacity-80"
-                      />
+                      
                     </div>
                   </div>
                 </div>
@@ -97,7 +99,7 @@ const Hero = () => {
                 {/* Quote */}
                 <blockquote className="mt-6 p-6 bg-gradient-to-r from-purple-600/20 to-green-600/20 rounded-2xl border-l-4 border-green-400">
                   <p className="text-white italic text-lg leading-relaxed mb-3">
-                    "The best investment you can make is in yourself. Start early, start strong, and watch your confidence transform your entire future."
+                    "Great communicators become great leaders because they move hearts, shape minds, and inspire action."
                   </p>
                   <cite className="text-green-300 font-semibold">~ Gamaliel Gerishom</cite>
                 </blockquote>
