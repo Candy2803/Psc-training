@@ -43,7 +43,7 @@ const Features = () => {
               <h3 className="text-white text-xl font-bold mb-4 group-hover:bg-gradient-to-r group-hover:from-green-400 group-hover:to-purple-400 group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
                 {feature.title}
               </h3>
-              <p className="text-gray-300 group-hover:text-white text-lg leading-relaxed transition-colors duration-300">
+              <p className="text-gray-300 group-hover:text-white text-xl leading-relaxed transition-colors duration-300">
                 {feature.description}
               </p>
             </div>
