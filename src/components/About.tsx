@@ -5,36 +5,36 @@ const About = () => {
     {
       icon: Lightbulb,
       title: "Vision",
-      desc: "Empowering teenagers to unlock their voice, define their purpose, and inspire impact in their communities and beyond.",
+      desc: "Shaping the next generation of effective, productive leaders with clarity, confidence, and purpose.",
     },
     {
       icon: Users,
-      title: "Community",
-      desc: "Your teen joins a supportive network of peers, mentors, and role models dedicated to growth and leadership.",
+      title: "Impact",
+      desc: "Over 10,000 individuals trained, including corporate leaders, entrepreneurs, and student leaders.",
     },
     {
       icon: BookOpen,
-      title: "Learning",
-      desc: "We combine practical communication drills, leadership exercises, and mentorship for real-world readiness.",
+      title: "Growth",
+      desc: "Equipping individuals, organizations, and communities with the mindset, skills, and values to thrive.",
     },
     {
       icon: Trophy,
-      title: "Results",
-      desc: "From public speaking competitions to graduation dinners at 5-star venues, the journey ends with confidence and recognition.",
+      title: "Legacy",
+      desc: "Creating lasting impact through leadership, mentorship, and personal development initiatives.",
     },
   ];
 
   const programBenefits = [
-    "Learn to speak boldly, clearly, and persuasively before audiences.",
-    "Boost self-esteem and confidence in expressing ideas.",
-    "Develop clarity in communication to influence and inspire.",
-    "Craft a personal leadership brand and discover their authentic voice.",
-    "Build critical thinking and problem-solving skills through speech preparation.",
-    "Overcome fear of public speaking and turn nervousness into boldness.",
-    "Learn career clarity and mentorship insights from top-notch career coaches.",
-    "Explore world-class careers through company visits and practical exposure.",
-    "Strengthen networking, teamwork, and presentation skills for leadership roles.",
-    "Gain certificates, recognition, and real-world confidence that prepares them for life.",
+    "Gain confidence and clarity in public speaking.",
+    "Boost self-esteem and develop persuasive communication skills.",
+    "Discover personal leadership style and authentic voice.",
+    "Receive mentorship from top career coaches.",
+    "Learn to align passion with profession for lasting success.",
+    "Strengthen critical thinking and problem-solving abilities.",
+    "Get exposure to real-world insights through career mentorship.",
+    "Develop networking, teamwork, and leadership presentation skills.",
+    "Prepare for impactful careers with practical guidance.",
+    "Rise with confidence, authority, and vision for leadership roles.",
   ];
 
   return (
@@ -63,13 +63,15 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-green-400 via-purple-200 to-white bg-clip-text text-transparent">
-              About the Bootcamp
+              About Permanent Success Consultancy (PSC)
             </span>
           </h2>
           <p className="text-gray-300 text-lg max-w-3xl mx-auto leading-relaxed">
-            More than just a program — it’s a transformation. Our mentorship
-            bootcamp is designed to ignite potential, instill confidence, and
-            prepare the next generation of leaders.
+            Permanent Success Consultancy is one of the leading firms shaping
+            the next generation of effective and productive leaders. For over
+            five years, PSC has been at the forefront of equipping individuals,
+            organizations, and communities with the skills, mindset, and values
+            needed to thrive in leadership and personal growth.
           </p>
         </div>
 
@@ -110,7 +112,7 @@ const About = () => {
           </p>
 
           <h4 className="text-xl font-bold text-purple-300 mb-4">
-            What young people will gain:
+            What participants will gain:
           </h4>
           <ul className="space-y-3">
             {programBenefits.map((benefit, i) => (
@@ -122,23 +124,33 @@ const About = () => {
           </ul>
         </div>
 
-        {/* Philosophy / Closing Statement */}
+        {/* Closing Statement */}
         <div className="space-y-6 text-gray-300 text-lg leading-relaxed">
+          <p>
+            To date, we have trained over 10,000 individuals, including
+            corporate leaders, business owners, student leaders, and countless
+            young people in the professional space. This reach reflects our
+            commitment to transforming not just individuals but entire sectors
+            through the power of effective leadership and productivity.
+          </p>
           <p>
             We recognize that in today’s world, the ability to communicate with
             confidence, clarity, and conviction is not optional—it is essential.
             Public speaking sharpens critical thinking, strengthens self-esteem,
-            and positions young leaders to move people, shape ideas, and
-            influence change. At the same time, career mentorship provides the
-            wisdom, direction, and practical pathways necessary for building
-            meaningful and impactful futures.
+            and positions leaders to move people, shape ideas, and influence
+            change. At the same time, career mentorship provides wisdom,
+            direction, and practical pathways necessary for building meaningful
+            futures.
           </p>
           <p>
             When young people learn to express themselves powerfully and pursue
             their careers with clarity, they not only find their voice but also
             discover their place in shaping society. They develop the courage to
             stand before audiences, defend their ideas, chase their dreams, and
-            inspire collective action.
+            inspire collective action. This is why PSC invests deeply in
+            communication and mentorship: because the leaders of tomorrow must
+            not only have vision but also the voice and direction to articulate
+            and live it.
           </p>
           <p>
             At{" "}
