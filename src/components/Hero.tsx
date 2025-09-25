@@ -81,7 +81,7 @@ const Hero = () => {
                     {/* Company Logos */}
                     <div className="flex flex-col gap-4 mb-4">
                     <img
-                        src="https://ik.imagekit.io/candy28/Screenshot%202025-09-14%20at%2020.48.20.png?updatedAt=1757872360516"
+                        src="https://ik.imagekit.io/candy28/WhatsApp%20Image%202025-09-24%20at%2010.44.54%20AM.jpeg?updatedAt=1758779939091"
                         alt="Gamaliel's Company Logo"
                         className="h-25 w-25 rounded-lg object-contain opacity-80"
                       />
